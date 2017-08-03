@@ -1,0 +1,17 @@
+#header{height:70px;background-color:#fff;width:100%;overflow:hidden}
+#header #head{width:98%;height:70px;text-align:right;margin:0 auto;font-size:14px;background-image:url(../../assets/img/logo.png);background-position:center left;background-repeat:no-repeat;}
+#header #head .head-doc a.head-user{color:#666;background:url(../../assets/img/head-doc.png) left no-repeat;text-align: left; margin-right: 20px; padding-left: 30px;}
+#header #head .head-doc a.head-user1{color:#666;text-align: left;margin-right: 15px;}
+#header #head .head-doc a.head-user2{color:#666;text-align: left;margin-right: 20px;}
+#header #head .head-doc a.head-exit{color:#666;text-align:right;}
+#header #head .head-doc a:hover{text-decoration:none;color:#0086d1}
+#header #head .head-doc{ float: right;margin-top:26px}
+#header #head .logos {float: left; margin-left: 230px; color: #666; font-size: 1.4em; text-align: left; margin-top:24px; line-height: 24px;letter-spacing: 2px;}
+#header #head .logos .borlbox {float:left;height: 34px;width: 1px; background: linear-gradient(to bottom, transparent, #ddd, transparent ); margin-right: 14px; margin-top: -5px;}
+#header #head .logos span{ letter-spacing: 0; color: #999; font-size: 0.8em;}
+
+
+#footer{clear:both;height:110px;border-top:#429cd0 2px solid;background-color:#fff;width: 100%;}
+#footer .foot{width:960px;height:80px;margin:0 auto;margin-top:30px}
+#footer p{color:#666;font-size:14px;line-height:30px;text-align:center}
+.footer{text-align:center;margin:15px 0; font:normal 14px/24px 'MicroSoft YaHei';}

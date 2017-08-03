@@ -1,0 +1,23 @@
+<div class="login">
+	<div class="headerbox">
+		<img src="../assets/img/title.png" alt="">
+	</div>
+	<div class="main">
+		<img src="../assets/img/bg1.jpg" alt="">
+		<div class="container">
+			<h3>登录/Login</h3>
+			<form class="loginbox" action="userlogin" method="post">
+				<ul>
+						<li><input type="text" name="userId" class="yhm"
+							placeholder="请输入账户名" (keyup)="onnameKey($event)"/></li>
+						<li><input type="text" name="txtPwd" id="txtPwd" class="mm"
+						  placeholder="请输入密码" (keyup)="onpassKey($event)"/></li>
+						<li><label id="e_msg" class="l_e_msg"
+						style="color: red;">{{msg}}</label></li>
+				</ul>
+				<button type="button" class="button" (click)="submit()">登&nbsp;录</button>
+			</form>
+		</div>
+	</div>
+	<div class="footer1">尾部</div>
+</div>

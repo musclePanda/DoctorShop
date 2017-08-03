@@ -1,0 +1,16 @@
+.login{ width:100%; height: 100%;position: relative;}
+.login .headerbox{width:100%; height: 220px; background-image: url(../../assets/img/bjhead.jpg); background-repeat:no-repeat; text-align:center;position:absolute;top:0;}
+.login .headerbox img{ display:block; width:600px; height:116px; margin:0 auto; padding-top:65px;}
+.login .container{ position: absolute;left: 50%;top: 50%;margin-left: -190px;margin-top: -190px; width:380px; height:380px; text-align:center; border-radius: 5px;}
+.login h3{font-weight: normal; font-size:20px; margin:0; line-height:70px;font-family:'微软雅黑';}
+.loginbox{ width:319px; height:230px; margin: 0 auto 0 auto; padding:0;}
+.login ul{ padding:0; margin:0; }
+.login ul li{ padding-top:19px; clear:left;}
+.login input{ border:none;}
+.login ul li img{ display:block; float:left;vertical-align:middle; width:48px; height:44px; }
+.login .yhm{ width:256px; height:42px;line-height:40px; background-image:url(../../assets/img/yhm.png); background-size: 100%;background-repeat:no-repeat; padding-left:63px;font-family:'微软雅黑'; font-size:16px;  color:#666; border:none; background-color:transparent;}
+.login .mm{ width:256px; height:42px; line-height:40px;background-image:url(../../assets/img/mm.png); background-size: 100%;background-repeat:no-repeat; padding-left:63px;font-family:'微软雅黑'; font-size:16px;  color:#666; border:none; background-color:transparent;}
+.login .button{  margin-top:20px; width:319px; height:42px;font-family:'微软雅黑'; font-size:17px; font-weight:normal; color:#fff; line-height:40px; background-color:#0086d1; border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px; border:none; cursor:pointer }
+.login .footer1{width:100%; height:70px; background-color:#0086d1; text-align:center; color: #fff; font-size: 12px; line-height: 70px;position:absolute;bottom:0;}
+.login .main{width: 100%;position:absolute;bottom:70px;top:220px;}
+.login .main>img{width: 100%;height: 100%;}
