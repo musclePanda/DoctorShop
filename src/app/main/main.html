@@ -4,16 +4,43 @@
 			<div class="head-doc">
 				<a class="head-user">大石桥村卫生服务中心</a>
 				<a class="head-user1">消化内科</a>
-				<a class="head-user2">陈丽娟&nbsp;&nbsp;主任医师</a>
-				<a class="head-exit" id="exitLink">退出系统</a>
+				<a class="head-user2"><span >{{username}}</span>&nbsp;&nbsp;主任医师</a>
+				<a class="head-exit" (click)="quit()">退出系统</a>
 			</div>
 		</div>
-	</div>
-  <router-outlet></router-outlet>
+</div>
+<div id="nav" *ngIf="admin">
+    <ul>
+				<li><a>管理员</a></li>
+        <li><a>门诊诊疗</a></li>
+        <li><a>工具箱</a>
+            <div class="popnav">
+                <a>医嘱套餐</a>
+                <a>病例模板</a>
+                <a>门诊日志</a>
+            </div>
+        </li>
+    </ul>
+</div>
+<div id="nav" *ngIf="doctor">
+    <ul>
+				<li><a>医生</a></li>
+        <li><a>门诊诊疗</a></li>
+        <li><a>工具箱</a>
+            <div class="popnav">
+                <a>医嘱套餐</a>
+                <a>病例模板</a>
+                <a>门诊日志</a>
+            </div>
+        </li>
+    </ul>
+</div>
+	<router-outlet *ngIf="doctor" name = "doctor"></router-outlet>
+	<router-outlet *ngIf="admin" name = "admin"></router-outlet>
 <div id="footer">
 	<div class="foot">
-	<p>版权所有：深圳中兴网信科技有限公司&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;粤ICP备13005675号-1
-	</p>
-	<p>地址：深圳市南山区科技园中兴通讯研发楼26楼</p>
+		<p>版权所有：深圳中兴网信科技有限公司&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;粤ICP备13005675号-1
+		</p>
+		<p>地址：深圳市南山区科技园中兴通讯研发楼26楼</p>
 	</div>
 </div>

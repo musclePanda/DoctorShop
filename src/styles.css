@@ -9,3 +9,6 @@ body,html{
 li{
   list-style: none;
 }
+.wrap{
+  padding: 10px 10px;
+}

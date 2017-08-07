@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
- import { Route, Router, ActivatedRoute, Params } from '@angular/router';
+import { Route, Router, ActivatedRoute, Params } from '@angular/router';
 
 @Component({
   selector: 'login',
@@ -15,6 +15,7 @@ export class Login {
   pass:any
   msg:string
   url:string
+  username:string
   onnameKey(event: any) {
     this.name = event.target.value;
   }
@@ -22,9 +23,10 @@ export class Login {
     this.pass = event.target.value;
   }
   submit(){
-    if(this.name == 'zby' || this.pass == 123){
+    if(this.name == 'zby' || this.pass == 123 && this.name == 'admin' || this.pass == 123){
       this.msg = ""
-      this.router.navigate(['/main']);
+      this.username = this.name
+      this.router.navigate(['/main',{username:this.username}]);
     } else{
       this.msg = "用户名或者密码错误！"
       this.url = ""

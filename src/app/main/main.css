@@ -15,3 +15,27 @@
 #footer .foot{width:960px;height:80px;margin:0 auto;margin-top:30px}
 #footer p{color:#666;font-size:14px;line-height:30px;text-align:center}
 .footer{text-align:center;margin:15px 0; font:normal 14px/24px 'MicroSoft YaHei';}
+
+/*导航栏*/
+
+#nav{height:45px;background-color:#0186d1;color:#fff;overflow:hidden}
+#nav ul{width:98%;margin:0 auto;font-size:16px;list-style-type:none;height:45px;padding:0;line-height:45px}
+#nav ul li{display:inline;float:left;margin-left:0;background-color:#0186d1;width: 140px;margin-right: 4px;}
+#nav ul li.current,#nav ul li:hover{background-color:#58b530}
+nav ul li.current a:hover{background-color:#58b530}
+#nav ul li a:hover{text-decoration:none;color:#fff}
+#nav ul li a{color:#fff;display:inline;float:left; font-size: 1.15em;width: 100%;text-align: center;}
+#nav ul i{ width: 30px; height: 30px; float: right;}
+#nav ul i img{ width: 20px; height: 20px;}
+#nav ul i:hover{ cursor: pointer;}
+
+
+/*导航 - 二级*/
+.popnav {background: #6f7274; position: absolute; margin-top: 45px;width: 140px !important;display: none;overflow: hidden;z-index: 7;}
+.popnav a{float:left; width:140px; font-size: .9em!important; height: 40px;line-height: 40px; display: block !important;text-align: center;border-bottom: 1px solid #ccc;}
+.popnav a:hover { background:  #090a0a !important;}
+
+.popnav.wid128{ width: 128px!important;}
+.popnav.wid128 a{width:122px;}
+
+#nav ul li:hover >.popnav { color: #f00; display: block;}

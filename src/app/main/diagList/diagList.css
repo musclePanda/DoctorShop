@@ -1,0 +1,17 @@
+
+.wrap-left{
+  width: 200px;
+  line-height: 40px;
+}
+.sick_type a{
+  width: 48%;
+  display: inline-block;
+  line-height: 40px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #127da5;
+  text-align: center;
+}
+.sick_type:first a{
+  margin-right: 4%;
+}
